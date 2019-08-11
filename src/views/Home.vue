@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     <h1>{{ message }}</h1>
-    <p>Please enter the 3 letter code of your closest major airport_code:</p>
-    <form>
-      <p><input type="text" v-model="airportCode" list="airport_code"></p>
+    <p>Please enter the 3 letter code of your closest major airport:</p>
+    <form @submit.prevent="redirectToDestinations()">
+      <p><input type="text" v-model="origin" list="airport_code"></p>
       <datalist id="airport_code">
         <option v-for="destination in destinations">{{ destination.airport_code }}</option>
       </datalist>
@@ -27,8 +27,8 @@ export default {
   mixins: [Vue2Filters.mixin],
   data: function() {
     return {
-      message: "Welcome to Whereshago!",
-      airportCode: "",
+      message: "Welcome to Wanderlust!",
+      origin: "",
       destinations: [],
       moneyToSpend: ""
     };
@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     redirectToDestinations: function() {
-      this.$router.push('/destinations');
+      this.$router.push({ path: 'destinations', query: { origin: 'MIA' }});
     }
   }
 };
