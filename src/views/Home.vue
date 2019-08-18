@@ -30,7 +30,7 @@ export default {
       message: "Welcome to Wanderlust!",
       origin: "",
       destinations: [],
-      moneyToSpend: ""
+      moneyToSpend: "",
     };
   },
   created: function() {
@@ -41,7 +41,9 @@ export default {
   },
   methods: {
     redirectToDestinations: function() {
-      this.$router.push({ path: 'destinations', query: { origin: 'MIA' }});
+      var origin = this.origin;
+      var moneyToSpend = this.moneyToSpend;
+      this.$router.push({ path: 'destinations', query: { origin, moneyToSpend }});
     }
   }
 };
