@@ -1,5 +1,12 @@
 <template>
   <div id="app">
+    <!-- Preloader -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+
     <header id="header-03" class="header">
     <!-- START NAVBAR -->
       <nav class="navbar navbar-expand-md navbar-light bg-faded">
@@ -7,13 +14,13 @@
             <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="SafeTour"></a>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown"><a href="index.html" class="nav-link active">Home</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="index.html">Home Version 1</a></li>
-                      <li><a class="dropdown-item" href="index-02.html">Home Version 2</a></li>
-                      <li><a class="dropdown-item" href="index-03.html">Home Version 3</a></li>
-                      <li><a class="dropdown-item" href="index-04.html">Home Version 4</a></li>                            
-                      <li><a class="dropdown-item" href="index-05.html">Home Version 5</a></li>
-                    </ul>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html">Home Version 1</a></li>
+                    <li><a class="dropdown-item" href="index-02.html">Home Version 2</a></li>
+                    <li><a class="dropdown-item" href="index-03.html">Home Version 3</a></li>
+                    <li><a class="dropdown-item" href="index-04.html">Home Version 4</a></li>                            
+                    <li><a class="dropdown-item" href="index-05.html">Home Version 5</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item dropdown"><a href="packages-grid.html" class="nav-link">Tours</a>
                     <ul class="dropdown-menu">
@@ -118,10 +125,24 @@
             </div>  
         </div>
         <div class="copyright">
-            <p> Copyright &copy; 2018, Created  by <span>NajmulHaque</span></p>            
+          <p> Copyright &copy; 2018, Created  by <span>NajmulHaque</span></p>            
         </div>         
       </div>      
     </footer><!-- ./ End Footer Area-->
+
+    <!--============= {Scrolll Top } ===========-->
+    <section id="scroll-top" class="scrolll-top">
+        <div class="container">      
+            <div class="row">
+                <div class="col-sm-12 d-flex justify-content-end">
+                    <h2>&nbsp;</h2>
+                    <div class="to-top pos-rtive">
+                        <a href="#"><i class = "fa fa-angle-up"></i></a>
+                    </div><!-- Scroll to top button end-->
+                </div>
+            </div>
+        </div>
+    </section>
   </div>
 </template>
 
