@@ -22,7 +22,7 @@
     
     <div v-if="sortDestinationsBy === 'rank'">
       <hr>
-      <div v-for="destination in limitBy(orderBy(destinations, 'rank'), 29)">
+      <div v-for="destination in limitBy(orderBy(destinations, 'rank'), 40)">
         <p>{{ destination.name }}, {{ destination.country }}</p>
       </div>
     </div>
@@ -42,8 +42,10 @@ export default {
     return {
       destinations: [],
       id: 221,
-      origin: {},
-      sortDestinationsBy: ""
+      origin: {
+        origin_trip_destinys: []
+      },
+      sortDestinationsBy: "",
     };
   },
   created: function() {
