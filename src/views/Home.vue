@@ -1,5 +1,74 @@
 <template>
   <div class="home">
+
+    <header id="header-03" class="header">
+
+      <!-- START NAVBAR -->
+      <nav class="navbar navbar-expand-md navbar-light bg-faded">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="SafeTour"></a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown"><a href="index.html" class="nav-link active">Home</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html">Home Version 1</a></li>
+                    <li><a class="dropdown-item" href="index-02.html">Home Version 2</a></li>
+                    <li><a class="dropdown-item" href="index-03.html">Home Version 3</a></li>
+                    <li><a class="dropdown-item" href="index-04.html">Home Version 4</a></li>                            
+                    <li><a class="dropdown-item" href="index-05.html">Home Version 5</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown"><a href="packages-grid.html" class="nav-link">Tours</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="packages-grid.html">Tour Grid</a></li>
+                      <li><a class="dropdown-item" href="packages-list.html">Tour List</a></li>
+                      <li><a class="dropdown-item" href="tour-search.html">Tour Search</a></li>
+                      <li><a class="dropdown-item" href="packages-single.html">Tour Details</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown"><a href="hotels.html" class="nav-link ">Hotel</a>
+          <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="hotels-grid.html">Hotel Grid</a></li>
+                        <li><a class="dropdown-item" href="hotels.html">Hotel Search</a></li>
+                    </ul>
+        </li>
+                <li class="nav-item dropdown"><a href="car-rents-list.html" class="nav-link">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="car-rents-list.html">Car Rents</a></li>
+                        <li><a class="dropdown-item" href="cruise-list.html">Cruise</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown"><a href="index.html" class="nav-link">Pages</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown"><a class="dropdown-item d-flex justify-content-between" href="index.html">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html">Lavel 2</a></li>
+                                <li><a class="dropdown-item" href="index.html">Lavel 2</a></li>
+                                <li><a class="dropdown-item" href="index.html">Lavel 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="packages-grid.html">Packages Grid</a></li>
+                        <li><a class="dropdown-item" href="packages-list.html">Packages List</a></li>
+                        <li><a class="dropdown-item" href="packages-single.html">Single Packages</a></li>
+                        <li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
+                        <li><a class="dropdown-item" href="blog-list.html">Blog List</a></li>
+                        <li><a class="dropdown-item" href="blog-single.html">Blog Post</a></li>
+                        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown"><a href="blog-grid.html" class="nav-link">Blog</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
+                        <li><a class="dropdown-item" href="blog-list.html">Blog List</a></li>
+                        <li><a class="dropdown-item" href="blog-single.html">Blog Post</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="">
+                <a href="#" class="btn btn-default book-btn">Book Now</a>
+            </div>
+        </div>
+      </nav><!-- END NAVBAR -->
     
     <div class="rev_slider_wrapper">
        <div id="rev_slider_1" class="rev_slider rev_slider-03">
@@ -225,8 +294,10 @@
         </div><!-- END SLIDER CONTAINER -->
     </div><!-- END SLIDER CONTAINER WRAPPER -->
 
+    </header>
+
     <!--============= { Booking Form  } ===========-->
-    <section id="booking-form-03" class="booking-form" >
+    <section id="booking-form-03" class="booking-form">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
