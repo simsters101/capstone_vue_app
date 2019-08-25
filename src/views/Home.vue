@@ -232,42 +232,25 @@
                 <div class="col-sm-12">
                     <div class="booking-form-wrapper">
                         <h2>&nbsp;</h2>
-                        <form>
+                        <form @submit.prevent="redirectToDestinations()">
                             <div class="form-group">
                                 <div class="form-items">
                                     <div class="form-single">
-                                        <label>Search</label>
-                                        <input class="form-control" value="" placeholder="Type Keyword" type="text">
+                                        <label>Airport Code</label>
+                                        <input class="form-control" v-model="origin" placeholder="Airport Code" type="text" list="airport_code">
                                     </div>                            
                                     <div class="form-single">
                                         <i class="fas fa-sort-down down-icon"></i>
-                                        <label>Select Location</label>
-                                        <select class="selectpicker form-control" name= "location" >
-                                            <option value="1">location</option>
-                                            <option value="0">America</option>
-                                            <option value="0">Canada</option>
-                                            <option value="0">Australia</option>                                        
+                                        <label>What is your budget like?</label>
+                                        <select class="selectpicker form-control" v-model="moneyToSpend">
+                                            <option value="budget">I'm on a tight budget</option>
+                                            <option value="mix">I got money to spend</option>
+                                            <option value="lotsOfMoney">Money is no object</option>                     
                                         </select>
-                                    </div>
-                                    <div class="form-single">
-                                        <i class="fas fa-sort-down down-icon"></i>
-                                        <label>Date Check</label>
-                                        <input class="form-control" id="datepicker-3" placeholder="Select Date" type="text">
-                                    </div>                            
-                                    <div class="form-single">
-                                        <i class="fas fa-sort-down down-icon"></i>
-                                        <label>Guest</label>
-                                        <select class="selectpicker form-control" name= "location">
-                                            <option value="1">Guest No.</option>
-                                            <option value="0">Guest 1</option>
-                                            <option value="0">Guest 2</option>
-                                            <option value="0">Guest 3</option>                                        
-                                            <option value="0">Guest 4</option>                                          
-                                        </select>
-                                    </div>
+                                    </div>                         
                                     <div class="form-single">                                
                                         <div class="search-btn ">
-                                            <button class="btn-primary" type="button"><i class="flaticon-search"></i></button>
+                                            <button class="btn-primary" type="submit"><i class="flaticon-search" ></i></button>
                                         </div>
                                     </div>
                                 </div>
