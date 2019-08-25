@@ -8,15 +8,7 @@
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="SafeTour"></a>
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown"><a href="index.html" class="nav-link active">Home</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="index.html">Home Version 1</a></li>
-                    <li><a class="dropdown-item" href="index-02.html">Home Version 2</a></li>
-                    <li><a class="dropdown-item" href="index-03.html">Home Version 3</a></li>
-                    <li><a class="dropdown-item" href="index-04.html">Home Version 4</a></li>                            
-                    <li><a class="dropdown-item" href="index-05.html">Home Version 5</a></li>
-                  </ul>
-                </li>
+                <li class="nav-item"><router-link to="/" class="nav-link">Home</router-link></li>
                 <li class="nav-item dropdown"><a href="packages-grid.html" class="nav-link">Tours</a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="packages-grid.html">Tour Grid</a></li>
