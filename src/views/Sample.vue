@@ -1,20 +1,34 @@
 <template>
   <div class="destinations">
 
-    <header id="header-03" class="header">
-
-      <!-- START NAVBAR -->
-      <nav class="navbar navbar-expand-md navbar-light bg-faded">
+  
+<!-- Preloader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<!--============= { Header } ===========-->
+<header id="Packege-grid" class="header inner-pages">
+    <nav class="navbar navbar-expand-md navbar-light bg-faded">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="SafeTour"></a>
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="SafeTure"></a>
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><router-link to="/" class="nav-link">Home</router-link></li>
+                <li class="nav-item dropdown"><a href="index.html" class="nav-link">Home</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="index.html">Home Version 1</a></li>
+                        <li><a class="dropdown-item" href="index-02.html">Home Version 2</a></li>
+                        <li><a class="dropdown-item" href="index-03.html">Home Version 3</a></li>
+                        <li><a class="dropdown-item" href="index-04.html">Home Version 4</a></li>                            
+                        <li><a class="dropdown-item" href="index-05.html">Home Version 5</a></li>
+                    </ul>
+                </li>
                 <li class="nav-item dropdown"><a href="packages-grid.html" class="nav-link">Tours</a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="packages-grid.html">Tour Grid</a></li>
-                      <li><a class="dropdown-item" href="packages-list.html">Tour List</a></li>
-                      <li><a class="dropdown-item" href="tour-search.html">Tour Search</a></li>
-                      <li><a class="dropdown-item" href="packages-single.html">Tour Details</a></li>
+                        <li><a class="dropdown-item" href="packages-grid.html">Tour Grid</a></li>
+                        <li><a class="dropdown-item" href="packages-list.html">Tour List</a></li>
+                        <li><a class="dropdown-item" href="tour-search.html">Tour Search</a></li>
+                        <li><a class="dropdown-item" href="packages-single.html">Tour Details</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown"><a href="hotels.html" class="nav-link ">Hotel</a>
@@ -29,7 +43,7 @@
                         <li><a class="dropdown-item" href="cruise-list.html">Cruise</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown"><a href="index.html" class="nav-link">Pages</a>
+                <li class="nav-item dropdown"><a href="index.html" class="nav-link active">Pages</a>
                     <ul class="dropdown-menu">
                         <li class="dropdown"><a class="dropdown-item d-flex justify-content-between" href="index.html">Dropdown</a>
                             <ul class="dropdown-menu">
@@ -54,32 +68,31 @@
                         <li><a class="dropdown-item" href="blog-single.html">Blog Post</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link ">Contact</a></li>
             </ul>
             <div class="">
                 <a href="#" class="btn btn-default book-btn">Book Now</a>
             </div>
         </div>
-      </nav><!-- END NAVBAR -->
+    </nav><!-- END NAVBAR -->        
 
-      <div class="intro-text">
+    <div class="intro-text">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="title">Destinations</h1>
+                    <h1 class="title">Hotels</h1>
                     <div class="page-link">
-                        <a href="/" title="">Home</a>
-                        <a href="/destinations" title="">Destinations</a>
+                        <a href="" title="">Home</a>
+                        <a href="" title="">Hotels</a>
                     </div>                    
                 </div>
             </div> 
         </div>
-
     </div>
+</header> <!-- End Header -->
 
-    </header>
 
-    <!--============= { Packages Grid Area } ===========-->
+<!--============= { Packages Grid Area } ===========-->
 <section id="packages_grid_items" class="packages">
     <div class="container">
         <div class="row">        
@@ -282,32 +295,20 @@
     </div>
 </section>
 
-    <p>Id: {{ id }}</p>
-    <p>{{ origin.name }} ({{ origin.airport_code }})</p>
-    <p>Country: {{ origin.country }}</p>
-    <p>Continent: {{ origin.continent }}</p>
-    <div v-if="sortDestinationsBy === 'cheapness'">
-      <p>{{ origin.origin_trip_destinys.length }} Destinations</p>
-      <br>
-      <p>These destinations are listed in order of how much they cost to get to from {{ origin.name }} ({{ origin.airport_code }})</p>
-      <hr>
-      <div v-for="destination in orderBy(origin.origin_trip_destinys, 'origin_trip.price')">
-        <p>{{ destination.destiny.name }}, {{ destination.destiny.country }}</p>
-        <p>${{ destination.origin_trip.price }}</p>
-        <br>
-      </div>
-    </div>
 
-    <div v-if="sortDestinationsBy === 'mix'">
-      <p>This feature is under development. Check back later</p>
+<!--============= { Scroll Top Area } ===========-->
+<section id="scroll-top" class="scroll-top">
+    <div class="container">      
+        <div class="row">
+            <div class="col-sm-12 d-flex justify-content-end">
+                <h2>&nbsp;</h2>
+                <div class="to-top pos-rtive">
+                    <a href="#"><i class = "fa fa-angle-up"></i></a>
+                </div><!-- Scroll to top button end-->
+            </div>
+        </div>
     </div>
-    
-    <div v-if="sortDestinationsBy === 'rank'">
-      <hr>
-      <div v-for="destination in limitBy(orderBy(destinations, 'rank'), 40)">
-        <p>{{ destination.name }}, {{ destination.country }}</p>
-      </div>
-    </div>
+</section>
 
   </div>
 </template>

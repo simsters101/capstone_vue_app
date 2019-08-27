@@ -9,13 +9,13 @@
 
     <router-view/>
 
-        <!--============= { Footer Area } ===========-->
-    <footer id="footer-03" class="footer">
-      <div class="container">
+<!--============= { Footer Area Section } ===========-->
+<footer id="footer-04" class="footer">
+    <div class="container">
         <div class="row footer-col-list">
             <div class=" footer-single-col footer_single_col_1">
                 <h3 class="subtitle_1"><img src="images/logo.png" alt="SafeTure"></h3>
-                <p>Lorem Ipsum has been the industry's standard dummy text scrambled it to make a type specimen book.</p>
+                <p>Social proof hypotheses investor product management. Branding graphical user interface funding facebook conversion.</p>
                 <div class="subscribe-social">
                     <ul class="social-items list-unstyled">
                         <li><a href="#"><i class="fab fa-facebook-f fb-icon"></i></a></li>
@@ -49,16 +49,18 @@
                     <li><a href="#">Galley</a></li>
                 </ul>
             </div>
+
             <div class="footer-single-col footer_single_col_4">
                 <h3 class="subtitle_1">Booking</h3>
                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots classical</p>
             </div>  
         </div>
+
         <div class="copyright">
-          <p> Copyright &copy; 2018, Created  by <span>NajmulHaque</span></p>            
+            <p> Copyright &copy; 2018, Created  by <span>NajmulHaque</span></p>            
         </div>         
-      </div>      
-    </footer><!-- ./ End Footer Area-->
+    </div>      
+</footer><!-- ./ End Footer Area-->
 
     <!--============= {Scrolll Top } ===========-->
     <section id="scroll-top" class="scrolll-top">
