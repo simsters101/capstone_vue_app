@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
+import OldDestinations from './views/OldDestinations.vue';
 import Destinations from './views/Destinations.vue';
-import Sample from './views/Sample.vue';
 
 Vue.use(Router);
 
@@ -16,14 +16,14 @@ export default new Router({
       component: Home
     },
     {
+      path: '/old_destinations',
+      name: 'old-destinations',
+      component: OldDestinations
+    },
+    {
       path: '/destinations',
       name: 'destinations',
       component: Destinations
-    },
-    {
-      path: '/sample',
-      name: 'sample',
-      component: Sample
     },
     {
       path: '/about',
