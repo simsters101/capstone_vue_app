@@ -6,7 +6,7 @@
       <!-- START NAVBAR -->
       <nav class="navbar navbar-expand-md navbar-light bg-faded">
         <div class="container">
-            <a class="navbar-brand" href="/"><img src="../../public/actual-images/wanderlust logo.jpeg" alt="Wanderlust"></a>
+            <a class="navbar-brand" href="/"><img src="../../public/actual-images/output-onlinepngtools.png" alt="Wanderlust"></a>
         </div>
       </nav><!-- END NAVBAR -->
     
@@ -37,7 +37,7 @@
                         data-paddingbottom="[10,10,10,10]"
                         data-paddingleft="[0,0,0,0]"
 
-                        style="z-index: 2; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none;">World nature safe
+                        style="z-index: 2; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none;">Wanderlust
                     </div>
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption NotGeneric-Title   tp-resizeme" 
@@ -57,7 +57,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[12,12,12,12]"
                         data-paddingleft="[0,0,0,0]"
-                        style="z-index: 3; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none;">Adventures
+                        style="z-index: 3; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none;">Find Home Away
                     </div>                    
 
                     <!-- LAYER NR. 3 -->
@@ -78,7 +78,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[10,10,10,10]"
                         data-paddingleft="[0,0,0,0]"
-                        style="z-index: 5; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none; color: #ffffff;">Active lifestyle national Hungary bus creditcard
+                        style="z-index: 5; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none; color: #ffffff;">Your number one guide to decide
                     </div>
 
                     <!-- LAYER NR. 4 -->
@@ -99,28 +99,9 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[10,10,10,10]"
                         data-paddingleft="[0,0,0,0]"
-                        style="z-index: 6; white-space: nowrap;font-family: 'Poppins', sans-serif; color: #ffffff;">South America expedia boat.
+                        style="z-index: 6; white-space: nowrap;font-family: 'Poppins', sans-serif; color: #ffffff;">where to go on your next vacation.
                     </div>
                     <!-- LAYER NR. 5 -->
-                   <div class="tp-caption Newspaper-Button rev-btn " 
-                        id="slide-1687-layer-5" 
-                        data-x="['left','left','left','left']" data-hoffset="['70','70','70','70']" 
-                        data-y="['middle','middle','middle','middle']" data-voffset="['100','0','0','0']" 
-                        data-width="none"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-fontsize="['16','16','16','16']"
-                        data-type="button" 
-                        data-responsive_offset="on" 
-                        data-responsive="on"
-                        data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[15,15,15,15]"
-                        data-paddingright="[30,30,30,30]"
-                        data-paddingbottom="[15,15,15,15]"
-                        data-paddingleft="[30,30,30,30]"
-                        style="z-index: 8; font-weight: 600; white-space: nowrap;font-family: 'Poppins', sans-serif; outline:none;box-shadow:none;border:none; background:#ffffff; color:#3f77fa; cursor:pointer;letter-spacing: 0; border-radius: 5px;"><span>Start tour</span>
-                    </div>
                 <li data-index="rs-3047" data-transition="zoomin" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/banner.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Ken Burns" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <div class="slider-overlay"></div>
                     <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
@@ -143,7 +124,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[10,10,10,10]"
                         data-paddingleft="[0,0,0,0]"
-                        style="z-index: 2; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none;">World nature safe
+                        style="z-index: 2; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none;">The World
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -164,7 +145,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[12,12,12,12]"
                         data-paddingleft="[0,0,0,0]"
-                        style="z-index: 3; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none;">Adventures
+                        style="z-index: 3; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none;">is like a Candy Shop
                     </div>                    
                     <!-- LAYER NR. 3 -->
                     <div class="tp-caption   tp-resizeme" 
@@ -184,7 +165,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[10,10,10,10]"
                         data-paddingleft="[0,0,0,0]"
-                        style="z-index: 5; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none; color: #ffffff;">Active lifestyle national Hungary bus creditcard
+                        style="z-index: 5; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none; color: #ffffff;">There's so much too choose from!
                     </div>
 
                     <!-- LAYER NR. 4 -->
@@ -205,29 +186,9 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[10,10,10,10]"
                         data-paddingleft="[0,0,0,0]"
-                        style="z-index: 6; white-space: nowrap;font-family: 'Poppins', sans-serif; color: #ffffff;">South America expedia boat.
+                        style="z-index: 6; white-space: nowrap;font-family: 'Poppins', sans-serif; color: #ffffff;">Let Wanderlust help you decide where to go!
                     </div>
                     <!-- LAYER NR. 5 -->
-                   <div class="tp-caption Newspaper-Button rev-btn " 
-                        id="slide-1687-layer-9" 
-                        data-x="['left','left','left','left']" data-hoffset="['70','70','70','70']" 
-                        data-y="['middle','middle','middle','middle']" data-voffset="['100','0','0','0']" 
-                        data-width="none"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-fontsize="['16','16','16','16']"
-                        data-type="button" 
-                        data-responsive_offset="on" 
-                        data-responsive="on"
-                        data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[15,15,15,15]"
-                        data-paddingright="[30,30,30,30]"
-                        data-paddingbottom="[15,15,15,15]"
-                        data-paddingleft="[30,30,30,30]"
-
-                        style="z-index: 8; font-weight: 600; white-space: nowrap;font-family: 'Poppins', sans-serif; outline:none;box-shadow:none;border:none; background:#ffffff; color:#3f77fa; cursor:pointer;letter-spacing: 0; border-radius: 5px;"><span>Start tour</span>
-                    </div>
                 </li>
             </ul><!-- END SLIDES LIST -->
 
@@ -273,19 +234,26 @@
         </div>
     </section>
 
-    <h1>{{ message }}</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<!--     <h1>{{ message }}</h1>
     <p>Please enter the 3 letter code of your closest major airport:</p>
     <form @submit.prevent="redirectToDestinations()">
-      <p><input type="text" v-model="origin" list="airport_code"></p>
+      <p><input type="text" v-model="origin" list="airport_code"></p> -->
+      
       <datalist id="airport_code">
         <option v-for="destination in destinations">{{ destination.airport_code }}</option>
       </datalist>
-      <p>Choose one:</p>
+
+<!--       <p>Choose one:</p>
         <p><input type="radio" v-model="moneyToSpend" value="budget">I'm on a tight budget</p>
         <p><input type="radio" v-model="moneyToSpend" value="mix">I've got some money to spend</p>
         <p><input type="radio" v-model="moneyToSpend" value="lotsOfMoney">I've got all the money in the world</p>
       <p><input type="submit"></p>
-    </form>
+    </form> -->
   </div>
 </template>
 

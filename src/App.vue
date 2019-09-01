@@ -10,7 +10,7 @@
     <router-view/>
 
 <!--============= { Footer Area Section } ===========-->
-<footer id="footer-04" class="footer">
+<!-- <footer id="footer-04" class="footer">
     <div class="container">
         <div class="row footer-col-list">
             <div class=" footer-single-col footer_single_col_1">
@@ -57,10 +57,10 @@
         </div>
 
         <div class="copyright">
-            <p> Copyright &copy; 2018, Created  by <span>NajmulHaque</span></p>            
+            <p>Created by <span>Sim Sitzer</span></p>            
         </div>         
     </div>      
-</footer><!-- ./ End Footer Area-->
+</footer> --><!-- ./ End Footer Area-->
 
     <!--============= {Scrolll Top } ===========-->
     <section id="scroll-top" class="scrolll-top">
