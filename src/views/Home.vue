@@ -6,59 +6,7 @@
       <!-- START NAVBAR -->
       <nav class="navbar navbar-expand-md navbar-light bg-faded">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="SafeTour"></a>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><router-link to="/" class="nav-link">Home</router-link></li>
-                <li class="nav-item dropdown"><a href="packages-grid.html" class="nav-link">Tours</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="packages-grid.html">Tour Grid</a></li>
-                      <li><a class="dropdown-item" href="packages-list.html">Tour List</a></li>
-                      <li><a class="dropdown-item" href="tour-search.html">Tour Search</a></li>
-                      <li><a class="dropdown-item" href="packages-single.html">Tour Details</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown"><a href="hotels.html" class="nav-link ">Hotel</a>
-          <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="hotels-grid.html">Hotel Grid</a></li>
-                        <li><a class="dropdown-item" href="hotels.html">Hotel Search</a></li>
-                    </ul>
-        </li>
-                <li class="nav-item dropdown"><a href="car-rents-list.html" class="nav-link">Services</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="car-rents-list.html">Car Rents</a></li>
-                        <li><a class="dropdown-item" href="cruise-list.html">Cruise</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown"><a href="index.html" class="nav-link">Pages</a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown"><a class="dropdown-item d-flex justify-content-between" href="index.html">Dropdown</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="index.html">Lavel 2</a></li>
-                                <li><a class="dropdown-item" href="index.html">Lavel 2</a></li>
-                                <li><a class="dropdown-item" href="index.html">Lavel 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="dropdown-item" href="packages-grid.html">Packages Grid</a></li>
-                        <li><a class="dropdown-item" href="packages-list.html">Packages List</a></li>
-                        <li><a class="dropdown-item" href="packages-single.html">Single Packages</a></li>
-                        <li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
-                        <li><a class="dropdown-item" href="blog-list.html">Blog List</a></li>
-                        <li><a class="dropdown-item" href="blog-single.html">Blog Post</a></li>
-                        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown"><a href="blog-grid.html" class="nav-link">Blog</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
-                        <li><a class="dropdown-item" href="blog-list.html">Blog List</a></li>
-                        <li><a class="dropdown-item" href="blog-single.html">Blog Post</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="">
-                <a href="#" class="btn btn-default book-btn">Book Now</a>
-            </div>
+            <a class="navbar-brand" href="/"><img src="../../public/actual-images/wanderlust logo.jpeg" alt="Wanderlust"></a>
         </div>
       </nav><!-- END NAVBAR -->
     
@@ -70,7 +18,7 @@
                 <li data-index="rs-3010" data-transition="fade" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="/images/banner-03.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <div class="slider-overlay"></div>
                     <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-                    <img src="images/banner-03.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                    <img src="../../public/actual-images/travel photo.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                     <!-- BEGIN BASIC TEXT LAYER -->
                     <div class="tp-caption NotGeneric-Title   tp-resizeme" 
                          id="slide-3045-layer-1" 

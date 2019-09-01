@@ -3,6 +3,7 @@
 
     <!--============= { Header } ===========-->
     <header id="Packege-grid" class="header inner-pages">
+
         <nav class="navbar navbar-expand-md navbar-light bg-faded">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="SafeTure"></a>
@@ -82,6 +83,7 @@
                 </div> 
             </div>
         </div>
+
     </header> <!-- End Header -->
 
 
@@ -91,25 +93,25 @@
             <div class="row">        
                 <div class="col-sm-12">
                     <div class="sub-title">
-                        <h2>Top Rated Hotels</h2>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                        <h2>Top World Destinations</h2>
+                        <p>Since you got all the money in the world we though we would suggest to you the world's most marvelous cities and destinations.</p>
                     </div>
                 </div>
             </div>
             <div class="row pb-30">
-                <div class="col-sm-4 single-package-wrapper rpb" v-for="destination in destinations">
+                <div class="col-sm-4 single-package-wrapper rpb" v-for="destination in limitBy(orderBy(destinations, 'rank'), 40)">
                     <div class="singel-packages">
                         <div class="img-wrapper">
-                            <a href="" title=""><img src="images/search/hotel-01.jpg" alt=""></a>
+                            <img v-bind:src="destination.image">
                         </div>
                         <div class="packages-title">
                             <div class="title-wrapper">
-                                <h3><a href="" title="">Inverlochy Castle Hotel</a></h3>
-                                <p>2 days, 3 Nights start from </p>
+                                <h3>{{ destination.name }}, {{ destination.country }}</h3>
+                                <!-- <p>2 days, 3 Nights start from </p> -->
                             </div> 
                             <div class="packages_details">
                                <span>$120</span>
-                               <a href="" class="packages_booking">Book Now</a>
+                               <!-- <a href="" class="packages_booking">Book Now</a> -->
                             </div>   
                         </div>
                     </div>   
@@ -292,6 +294,7 @@
     <p>{{ origin.name }} ({{ origin.airport_code }})</p>
     <p>Country: {{ origin.country }}</p>
     <p>Continent: {{ origin.continent }}</p>
+
     <div v-if="sortDestinationsBy === 'cheapness'">
       <p>{{ origin.origin_trip_destinys.length }} Destinations</p>
       <br>
@@ -334,7 +337,7 @@ export default {
       origin: {
         origin_trip_destinys: []
       },
-      sortDestinationsBy: "",
+      sortDestinationsBy: ""
     };
   },
   created: function() {
