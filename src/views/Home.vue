@@ -57,7 +57,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[12,12,12,12]"
                         data-paddingleft="[0,0,0,0]"
-                        style="z-index: 3; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none;">Find Home Away
+                        style="z-index: 3; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none;">Find Your Escape
                     </div>                    
 
                     <!-- LAYER NR. 3 -->
@@ -105,7 +105,7 @@
                 <li data-index="rs-3047" data-transition="zoomin" data-slotamount="7" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/banner.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Ken Burns" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <div class="slider-overlay"></div>
                     <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-                    <img src="../../public/actual-images/florence.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="0" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                    <img src="../../public/actual-images/city.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="0" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                     <!-- BEGIN BASIC TEXT LAYER -->
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption NotGeneric-Title   tp-resizeme" 
@@ -243,7 +243,7 @@
     <p>Please enter the 3 letter code of your closest major airport:</p>
     <form @submit.prevent="redirectToDestinations()">
       <p><input type="text" v-model="origin" list="airport_code"></p> -->
-      
+
       <datalist id="airport_code">
         <option v-for="destination in destinations">{{ destination.airport_code }}</option>
       </datalist>

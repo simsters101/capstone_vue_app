@@ -37,8 +37,7 @@
                             <h2>Cool Places You Can Go For Cheap!</h2>
                             <p>The following destinations are listed in order of approximately how much a flight would cost you to get to each place.</p>
                             <br>
-                            <h4>You chose {{ origin.name }} ({{ origin.airport_code }})</h4>
-                            <h4>Country: {{ origin.country }}</h4>
+                            <h4>You chose {{ origin.name }} ({{ origin.airport_code }}), {{ origin.country }}</h4>
                         </div>
                     </div>
                 </div>
@@ -46,7 +45,7 @@
                     <div class="col-sm-4 single-package-wrapper rpb" v-for="destination in orderBy(origin.origin_trip_destinys, 'origin_trip.price')">
                         <div class="singel-packages">
                             <div class="img-wrapper">
-                                <!-- <img v-bind:src="destination.image"> -->
+                                <img v-bind:src="destination.destiny.image">
                             </div>
                             <div class="packages-title">
                                 <div class="title-wrapper">
@@ -243,10 +242,9 @@
                     <div class="col-sm-12">
                         <div class="sub-title">
                             <h2>Top World Destinations</h2>
-                            <p>Since you got all the money in the world we though we would suggest to you the world's most marvelous cities and destinations.</p>
+                            <p>Since you've got all the money in the world we though we would suggest to you the world's most marvelous cities and destinations.</p>
                             <br>
-                            <h4>You chose {{ origin.name }} ({{ origin.airport_code }})</h4>
-                            <h4>Country: {{ origin.country }}</h4>
+                            <h4>You chose {{ origin.name }} ({{ origin.airport_code }}), {{ origin.country }}</h4>
                         </div>
                     </div>
                 </div>
