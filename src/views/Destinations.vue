@@ -242,14 +242,14 @@
                     <div class="col-sm-12">
                         <div class="sub-title">
                             <h2>Top World Destinations</h2>
-                            <p>Since you've got all the money in the world we though we would suggest to you the world's most marvelous cities and destinations.</p>
+                            <h6>Since you've got all the money in the world we though we would suggest to you the world's most marvelous cities and destinations.</h6>
                             <br>
                             <h4>You chose {{ origin.name }} ({{ origin.airport_code }}), {{ origin.country }}</h4>
                         </div>
                     </div>
                 </div>
                 <div class="row pb-30">
-                    <div class="col-sm-4 single-package-wrapper rpb" v-for="destination in limitBy(orderBy(destinations, 'rank'), 58)">
+                    <div class="col-sm-4 single-package-wrapper rpb" v-for="destination in limitBy(orderBy(destinations, 'rank'), 80)">
                         <div class="singel-packages">
                             <div class="img-wrapper">
                                 <img v-bind:src="destination.image">
@@ -437,6 +437,13 @@
                 </nav>
               </div>
             </div> -->
+                <!-- <div class="row">         -->
+                  <!-- <div class="col-sm-12"> -->
+                      <div class="sub-title">
+                          <p>The order of these destinations is adapted from Lonely Planet's "The Cities Book: A Journey Through the Best Cities in the World" published in 2009. From Paris to Dhaka, it chronicles the 100 most dynamic, beautiful, thriving, fast-paced and all-around fascinating cities for travelers to see at least once in their lifetimes.</p>
+                      </div>
+                  <!-- </div> -->
+              <!-- </div> -->
             </div>
         </section>
     </div>
