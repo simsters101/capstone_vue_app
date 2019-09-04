@@ -60,7 +60,7 @@
                         </div>   
                     </div>            
 
-                    <div class="col-sm-4 single-package-wrapper rpb">
+<!--                     <div class="col-sm-4 single-package-wrapper rpb">
                         <div class="singel-packages">
                             <div class="img-wrapper">
                                 <a href="" title=""><img src="images/search/hotel-02.jpg" alt=""></a>
@@ -94,10 +94,10 @@
                                 </div>   
                             </div>
                         </div>   
-                    </div>  
+                    </div>  --> 
                 </div>
 
-                <div class="row pb-30">
+<!--                 <div class="row pb-30">
                     <div class="col-sm-4 single-package-wrapper rpb">
                         <div class="singel-packages">
                             <div class="img-wrapper">
@@ -151,9 +151,9 @@
                             </div>
                         </div>   
                     </div> 
-                </div>
+                </div> -->
 
-                <div class="row pb-30">
+<!--                 <div class="row pb-30">
                     <div class="col-sm-4 single-package-wrapper rpb">
                         <div class="singel-packages">
                             <div class="img-wrapper">
@@ -206,8 +206,8 @@
                             </div>
                         </div>   
                     </div>      
-                </div>
-            <div class="row">
+                </div> -->
+<!--             <div class="row">
               <div class="col-sm-4 offset-md-5">
                 <nav aria-label="Page navigation">
                   <ul class="pagination">
@@ -229,7 +229,7 @@
                   </ul>
                 </nav>
               </div>
-            </div>
+            </div> -->
             </div>
         </section>
     </div>
@@ -249,7 +249,7 @@
                     </div>
                 </div>
                 <div class="row pb-30">
-                    <div class="col-sm-4 single-package-wrapper rpb" v-for="destination in limitBy(orderBy(destinations, 'rank'), 40)">
+                    <div class="col-sm-4 single-package-wrapper rpb" v-for="destination in limitBy(orderBy(destinations, 'rank'), 58)">
                         <div class="singel-packages">
                             <div class="img-wrapper">
                                 <img v-bind:src="destination.image">
@@ -259,15 +259,15 @@
                                     <h3>{{ destination.name }}, {{ destination.country }}</h3>
                                     <!-- <p>2 days, 3 Nights start from </p> -->
                                 </div> 
-                                <div class="packages_details">
+<!--                                 <div class="packages_details">
                                    <span>$120</span>
-                                   <!-- <a href="" class="packages_booking">Book Now</a> -->
-                                </div>   
+                                   <a href="" class="packages_booking">Book Now</a>
+                                </div>    -->
                             </div>
                         </div>   
                     </div>            
 
-                    <div class="col-sm-4 single-package-wrapper rpb">
+                    <!-- <div class="col-sm-4 single-package-wrapper rpb">
                         <div class="singel-packages">
                             <div class="img-wrapper">
                                 <a href="" title=""><img src="images/search/hotel-02.jpg" alt=""></a>
@@ -357,10 +357,10 @@
                                 </div>   
                             </div>
                         </div>   
-                    </div> 
+                    </div> --> 
                 </div>
 
-                <div class="row pb-30">
+<!--                 <div class="row pb-30">
                     <div class="col-sm-4 single-package-wrapper rpb">
                         <div class="singel-packages">
                             <div class="img-wrapper">
@@ -413,8 +413,8 @@
                             </div>
                         </div>   
                     </div>      
-                </div>
-            <div class="row">
+                </div> -->
+<!--             <div class="row">
               <div class="col-sm-4 offset-md-5">
                 <nav aria-label="Page navigation">
                   <ul class="pagination">
@@ -436,7 +436,7 @@
                   </ul>
                 </nav>
               </div>
-            </div>
+            </div> -->
             </div>
         </section>
     </div>

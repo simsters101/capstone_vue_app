@@ -6,7 +6,7 @@
       <!-- START NAVBAR -->
       <nav class="navbar navbar-expand-md navbar-light bg-faded">
         <div class="container">
-            <a class="navbar-brand" href="/"><img src="../../public/actual-images/output-onlinepngtools.png" alt="Wanderlust"></a>
+            <a class="navbar-brand" href="/"><img src="../../public/actual-images/try_this_one.png" alt="Wanderlust"></a>
         </div>
       </nav><!-- END NAVBAR -->
     
@@ -165,7 +165,7 @@
                         data-paddingright="[0,0,0,0]"
                         data-paddingbottom="[10,10,10,10]"
                         data-paddingleft="[0,0,0,0]"
-                        style="z-index: 5; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none; color: #ffffff;">There's so much too choose from!
+                        style="z-index: 5; white-space: nowrap;font-family: 'Poppins', sans-serif; text-transform: none; color: #ffffff;">There's so much to choose from!
                     </div>
 
                     <!-- LAYER NR. 4 -->
@@ -208,7 +208,7 @@
                             <div class="form-group">
                                 <div class="form-items">
                                     <div class="form-single">
-                                        <label>Airport Code</label>
+                                        <label>Nearest Major Airport</label>
                                         <input class="form-control" v-model="origin" placeholder="Airport Code" type="text" list="airport_code">
                                     </div>                            
                                     <div class="form-single">
@@ -216,7 +216,7 @@
                                         <label>What is your budget like?</label>
                                         <select class="selectpicker form-control" v-model="moneyToSpend">
                                             <option value="budget">I'm on a tight budget</option>
-                                            <option value="mix">I got money to spend</option>
+                                            <!-- <option value="mix">I got money to spend</option> -->
                                             <option value="lotsOfMoney">Money is no object</option>                     
                                         </select>
                                     </div>                         
